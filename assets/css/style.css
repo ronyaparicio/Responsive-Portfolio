@@ -8,12 +8,14 @@ header {
 	width: 100%;
 	background-color: #fff;
 }
+
 .header {
 	height: 100px;
 	margin: auto;
 	max-width: 960px;
 	background-color: #fff;
 }
+
 .name {
 	background-color: #4aaaa5;
 	color: #fff;
@@ -23,6 +25,7 @@ header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 }
+
 
 .nav {
 	float: right;
@@ -51,7 +54,13 @@ header {
 	border-top: 2px solid #dddddd;
 	background: url('../images/pow-star.png');
 	width: 100%;
-	clear: both;
+	background-color: red;
+}
+.main::after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear:both;
 }
 
 .container {
